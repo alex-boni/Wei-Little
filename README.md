@@ -50,7 +50,7 @@ Este proyecto fue desarrollado por un equipo de **12 devs**.
 ---
 
 ## 📸 Capturas de pantalla  
-![Vista del menú principal](screenshots/menu-principal.png)
+![Vista del menú principal](screenshots/pantalla-principal.png)
 ![Gestión de un producto](screenshots/producto-plataforma.png)
 ![Alta de un producto](screenshots/alta-maquina.png)
 ![Venta de un videojuego](screenshots/venta.png)
