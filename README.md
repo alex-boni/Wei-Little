@@ -76,4 +76,5 @@ Este proyecto fue desarrollado por un equipo de **12 devs**.
 ---
 
 ## 📄 Licencia  
-Este proyecto fue desarrollado con fines académicos y no está licenciado para uso comercial.
+
+Este proyecto está bajo la licencia [Apache License](LICENSE).
