@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1"
+             xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+    
+    <persistence-unit name="arcade" transaction-type="RESOURCE_LOCAL">
+        
+        <!-- Proveedor JPA -->
+        <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+        
+        <class>Negocio.ClienteJPA.Cliente</class>
+        <class>Negocio.EmpleadoJPA.Empleado</class>
+        <class>Negocio.EmpleadoJPA.EmpleadoDependiente</class>
+        <class>Negocio.EmpleadoJPA.EmpleadoTecnico</class>
+        <class>Negocio.MaquinaJPA.Maquina</class>
+        <class>Negocio.MaquinaJPA.Arcade</class>
+        <class>Negocio.MaquinaJPA.Recreativa</class>
+        <class>Negocio.ModeloJPA.Modelo</class>
+        <class>Negocio.ModeloJPA.VinculacionModeloProveedor</class>
+        <class>Negocio.ProveedorJPA.Proveedor</class>
+        <class>Negocio.AlquilerJPA.Alquiler</class>
+        <class>Negocio.AlquilerJPA.LineaAlquiler</class>
+
+
+<!--		<validation-mode>NONE</validation-mode>-->
+        <shared-cache-mode>NONE</shared-cache-mode>
+
+        <!-- Propiedades de conexión a la base de datos -->
+        <properties>
+            <!-- Driver JDBC -->
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
+<!--			<property name="javax.persistence.schema-generation.database.action" value="update"/>-->
+            <!-- URL de conexión remota -->
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://95.216.10.148:3306/bdvideojuegos?useSSL=false" />
+            <property name="javax.persistence.jdbc.user" value="videojuegos" />
+            <property name="javax.persistence.jdbc.password" value="videojuegos123" />
+
+            <!-- URL de conexión local-->
+<!--            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/bdvideojuegos?useSSL=false" />-->
+<!--            <property name="javax.persistence.jdbc.user" value="root" />-->
+<!--            <property name="javax.persistence.jdbc.password" value="" />-->
+            
+            <!-- Configuración de EclipseLink -->
+<!--            <property name="eclipselink.ddl-generation" value="drop-and-create-tables" />-->
+            <property name="eclipselink.logging.level" value="FINE" />
+        </properties>
+        
+    </persistence-unit>
+</persistence>

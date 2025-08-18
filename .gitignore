@@ -1,2 +1,5 @@
 /bin/
 /.project
+*.class
+*/bin/
+*/.apt_generated/
