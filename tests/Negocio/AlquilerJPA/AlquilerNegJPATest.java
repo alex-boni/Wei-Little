@@ -1,0 +1,14 @@
+package Negocio.AlquilerJPA;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class AlquilerNegJPATest {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}
