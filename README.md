@@ -50,7 +50,7 @@ Este proyecto fue desarrollado por un equipo de **12 devs**.
 ---
 
 ## 📸 Capturas de pantalla  
-![Vista del menú principal](screenshots/menu-principal.png)
+![Vista del menú principal](screenshots/pantalla-principal.png)
 ![Gestión de un producto](screenshots/producto-plataforma.png)
 ![Alta de un producto](screenshots/alta-maquina.png)
 ![Venta de un videojuego](screenshots/venta.png)
@@ -76,4 +76,5 @@ Este proyecto fue desarrollado por un equipo de **12 devs**.
 ---
 
 ## 📄 Licencia  
-Este proyecto fue desarrollado con fines académicos y no está licenciado para uso comercial.
+
+Este proyecto está bajo la licencia [Apache License](LICENSE).
