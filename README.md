@@ -32,10 +32,15 @@ Este proyecto académico se centró en aplicar prácticas completas de modelado 
 
 ---
 
+## 🏠 Modelo del dominio  
+![Modelo E-R Tienda Videojuegos](screenshots/modelo-videojuegos.png)
+![Modelo E-R Sala de Arcade](screenshots/modelo-arcade.png)
+
+---
+
 ## 👥 Equipo  
 Este proyecto fue desarrollado por un equipo de **12 devs**.  
-**Alex Bonilla** actuó como **líder del equipo y desarrollador principal**, encargándose de la comunicación con el profesor, asignación de tareas, resolución de conflictos técnicos/personales y contribución activa al código.
-- [Alex Guillermo Bonilla Taco](https://github.com/alexboni97): líder del equipo y desarrollador principal**, encargándose de la comunicación con el profesor, asignación de tareas, resolución de conflictos técnicos/personales y contribución activa al código.
+- [Alex Guillermo Bonilla Taco](https://github.com/alexboni97): líder del equipo y desarrollador principal**, encargándose de la comunicación con el cliente (profesor), asignación de tareas, resolución de conflictos y contribución activa al código.
 - [Adrián Rodríguez Margallo](https://github.com/adrizz8)
 - [Sergio Sánchez Carrasco](https://github.com/WalterDeRacagua) 
 - [Santiago Ochoa de Zabalegui Velasco](https://github.com/SantiOch)
@@ -55,23 +60,30 @@ Este proyecto fue desarrollado por un equipo de **12 devs**.
 ![Alta de un producto](screenshots/alta-maquina.png)
 ![Venta de un videojuego](screenshots/venta.png)
 ![Alquiler de una maquina](screenshots/alquilar-maquina.png)
-![Modelo E-R Tienda Videojuegos](screenshots/modelo-videojuegos.png)
-![Modelo E-R Sala de Arcade](screenshots/modelo-arcade.png)
+
 
 ---
 
-## 🚀 Cómo ejecutar el proyecto en local  
+## 🚀 Cómo ejecutar codigo del proyecto en local  
 1. Clonar el repositorio  
-2. Importar el proyecto del codigo en Eclipse IDE  
-3. Configurar la conexión con la base de datos MySQL con tu base de datos local
-4. Ejecutar el proyecto localmente
+2. Importar el proyecto del codigo en Eclipse IDE
+3. Ejecutar `bdvideojuegos.sql` para crear la base de datos del gestor de Videojuegos en local.  
+4. Configurar la conexión con la base de datos MySQL con tu base de datos local
+5. Ejecutar el proyecto localmente
 
 ---
 
-## 📂 Estructura del proyecto  
-- `presentacion/` – Vistas en Swing, controladores, factorías  
-- `negocio/` – Servicios de aplicación, entidades, transfers, interfaces  
-- `integracion/` – DAO, configuración JPA, factorías de consultas, `EMFSingleton`
+## 🚀 Cómo observar los diagramas del proyecto
+1. Clonar el repositorio en IBM RSAD  
+2. Importar al workspace el proyecto de diagramas ubicado en `modelado y documentacion/TiendaVideojuegos`
+3. Explorar nuestros diagramas.  
+
+---
+
+## 📂 Estructura del proyecto   
+- `presentacion/` – Vistas en Swing, controlador, factoría de vistas  
+- `negocio/` – Servicios de aplicación, entidades, transfers, interfaces, factoría de SA
+- `integracion/` – DAOs, Entity Manager JPA, factoría de DAOs
 
 ---
 
