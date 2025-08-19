@@ -40,11 +40,11 @@ Este proyecto académico se centró en aplicar prácticas completas de modelado 
 
 ## 👥 Equipo  
 Este proyecto fue desarrollado por un equipo de **12 devs**.  
-- [Alex Guillermo Bonilla Taco](https://github.com/alexboni97): líder del equipo y desarrollador principal**, encargándose de la comunicación con el cliente (profesor), asignación de tareas, resolución de conflictos y contribución activa al código.
+- [Alex Guillermo Bonilla Taco](https://github.com/alex-boni): líder del equipo y desarrollador principal**, encargándose de la comunicación con el cliente (profesor), asignación de tareas, resolución de conflictos y contribución activa al código.
 - [Adrián Rodríguez Margallo](https://github.com/adrizz8)
 - [Sergio Sánchez Carrasco](https://github.com/WalterDeRacagua) 
 - [Santiago Ochoa de Zabalegui Velasco](https://github.com/SantiOch)
-- [Weihong Zu](https://github.com/whz0) 
+- [Weihong Zhu](https://github.com/whz0) 
 - [Airam Martin Soto](https://github.com/airamsoto)
 - [Manuel Villa Abajo](https://github.com/Manuvi03) 
 - [Jorge Calvo Fernandez](https://github.com/jorgecafe) 
