@@ -33,14 +33,16 @@ Este proyecto académico se centró en aplicar prácticas completas de modelado 
 ---
 
 ## 🏠 Modelo del dominio  
+- Modelo E-R Tienda Videojuegos
 ![Modelo E-R Tienda Videojuegos](screenshots/modelo-videojuegos.png)
+- Modelo E-R Sala de Arcade
 ![Modelo E-R Sala de Arcade](screenshots/modelo-arcade.png)
 
 ---
 
 ## 👥 Equipo  
 Este proyecto fue desarrollado por un equipo de **12 devs**.  
-- [Alex Guillermo Bonilla Taco](https://github.com/alex-boni): líder del equipo y desarrollador principal**, encargándose de la comunicación con el cliente (profesor), asignación de tareas, resolución de conflictos y contribución activa al código.
+- [Alex Guillermo Bonilla Taco](https://github.com/alex-boni): líder del equipo y desarrollador principal, encargándose de la comunicación con el cliente (profesor), asignación de tareas, resolución de conflictos y contribución activa al código.
 - [Adrián Rodríguez Margallo](https://github.com/adrizz8)
 - [Sergio Sánchez Carrasco](https://github.com/WalterDeRacagua) 
 - [Santiago Ochoa de Zabalegui Velasco](https://github.com/SantiOch)
@@ -54,11 +56,36 @@ Este proyecto fue desarrollado por un equipo de **12 devs**.
 - [Samuel Álvarez](https://github.com/samualvmed) 
 ---
 
-## 📸 Capturas de pantalla  
+## 📸 Capturas de pantalla
+
+
+- Vista del menú principal
+
+  
 ![Vista del menú principal](screenshots/pantalla-principal.png)
+
+
+- Gestión de un producto
+
+  
 ![Gestión de un producto](screenshots/producto-plataforma.png)
+
+
+- Alta de un producto
+
+  
 ![Alta de un producto](screenshots/alta-maquina.png)
+
+
+- Venta de un videojuego
+
+  
 ![Venta de un videojuego](screenshots/venta.png)
+
+
+- Alquiler de una maquina
+
+
 ![Alquiler de una maquina](screenshots/alquilar-maquina.png)
 
 
