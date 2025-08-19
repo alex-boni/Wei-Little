@@ -4,7 +4,8 @@
 ## 📌 Descripción  
 Wei-Little es una aplicación de escritorio desarrollada en Java que simula la gestión de una tienda de videojuegos y un servicio de alquiler de máquinas recreativas.
 
-Este proyecto académico se centró en aplicar prácticas completas de modelado y desarrollo de software, desde la planificación hasta el producto final, incluyendo:  
+Este proyecto académico se centró en aplicar prácticas completas de modelado y desarrollo de software, desde la planificación hasta el producto final, incluyendo:
+- Especificación de requisitos (SRS)
 - Arquitectura de software (DAO, JPA, MVC)  
 - Modelado con IBM RSAD (diagramas entidad-relación, de clases, casos de uso, actividades y secuencia)  
 - Separación clara por capas: presentación, negocio e integración
